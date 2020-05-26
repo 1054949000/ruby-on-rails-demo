@@ -20,8 +20,8 @@ Rails 是使用 Ruby 语言，开发 Web 应用或者 Api 的框架。
 
 **启动 Web 服务：**  
 
-	$ rails server
-上述命令会启动 Puma，这是 Rails 默认使用的 Web 服务器。要查看运行中的应用，请打开浏览器窗口，访问 http://localhost:3000。
+    $ rails server
+    上述命令会启动 Puma，这是 Rails 默认使用的 Web 服务器。要查看运行中的应用，请打开浏览器窗口，访问 http://localhost:3000。
 3. 创建第一个 API
 ----
 **配置路由：**  
