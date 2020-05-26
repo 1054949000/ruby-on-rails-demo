@@ -5,7 +5,8 @@ Ruby On Rails
 ----
 Rails 是使用 Ruby 语言，开发 Web 应用或者 Api 的框架。  
 
-##2. Rails 安装和使用
+2. Rails 安装和使用
+----
 **安装 Rails，请使用 RubyGems 提供的 gem install 命令：**  
     
     $ gem install rails  
@@ -21,7 +22,8 @@ Rails 是使用 Ruby 语言，开发 Web 应用或者 Api 的框架。
 
 	$ rails server
 上述命令会启动 Puma，这是 Rails 默认使用的 Web 服务器。要查看运行中的应用，请打开浏览器窗口，访问 http://localhost:3000。
-##3. 创建第一个 API
+3. 创建第一个 API
+----
 **配置路由：**  
 
 	#在config/routes.rb文件中
@@ -51,7 +53,8 @@ Rails 是使用 Ruby 语言，开发 Web 应用或者 Api 的框架。
 **使用 curl 请求 api：**  
 	
 	$ curl -i http://localhost:3000/api/v1/users/showInfo
-##4. 创建 User 模型和 users 表
+4. 创建 User 模型和 users 表
+----
 **创建模型和表：**
 	
 	$ bundle exe rails g model User
@@ -95,7 +98,8 @@ Rails 是使用 Ruby 语言，开发 Web 应用或者 Api 的框架。
 **使用 curl 请求 api 查看结果：**  
 	
 	$ curl -i http://localhost:3000/api/v1/users/showInfo
-##5. 链接第二个数据库
+5. 链接第二个数据库
+----
 **这里使用本地 postgresql 数据库：**
 
 	$ psql -h localhost -p 5432 railsdemo
@@ -133,7 +137,8 @@ Rails 是使用 Ruby 语言，开发 Web 应用或者 Api 的框架。
 
 	a = Student.first
 	puts "name:#{a.name}"
-##6. Ruby 语法和特点
+6. Ruby 语法和特点
+----
 **合并赋值与置换变量：**
 
 	a,b = 'a','b'
