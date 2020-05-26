@@ -1,6 +1,8 @@
-#Ruby On Rails
+Ruby On Rails
+====
 
-##1. 介绍
+1. 介绍
+----
 Rails 是使用 Ruby 语言，开发 Web 应用或者 Api 的框架。  
 
 ##2. Rails 安装和使用
